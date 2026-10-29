@@ -1,0 +1,23 @@
+/* Paragraph style */
+p {
+  line-height: 1.7;
+}
+
+/* Two additional tag styles */
+h2 {
+  color: #b85c38;
+}
+
+img {
+  border-radius: 6px;
+}
+
+/* Fade the band section in when the page loads. */
+#band {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
